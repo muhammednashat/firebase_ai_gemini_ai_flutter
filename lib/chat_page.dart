@@ -52,7 +52,7 @@ class _ChatPageState extends State<ChatPage> {
       ),
     );
   }
-
+//
   void _handleSubmitted(String text) async {
     if (text.isEmpty) return;
     _textController.clear();
